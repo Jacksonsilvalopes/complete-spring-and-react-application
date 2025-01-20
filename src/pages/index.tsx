@@ -3,7 +3,7 @@ import { Layout } from "components";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div className="is-white">
       <Head>
         <title>Vendas App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
@@ -12,7 +12,7 @@ const Home: React.FC = () => {
       </Head>
 
       <Layout />
-      Bem vindo !
+  
      
     </div>
   );
